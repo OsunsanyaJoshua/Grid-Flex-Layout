@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+main{
+    width: 50%;
+    height: 500px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    display: grid;
+    background-color:rgb(72, 12, 116) ;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e';
+    gap: 5px;
+}
+
+.a{background-color: rgb(252, 72, 7);}
+.b{background-color: orange;}
+.c{background-color: rgb(39, 167, 39);}
+.d{background-color: mediumturquoise;}
+.e{background-color: mediumturquoise;}
