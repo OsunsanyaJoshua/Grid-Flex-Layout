@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(32, 12, 51);
+   
+    
+}
+
+main{
+    display: grid;
+    background-color: rgb(32, 12, 51);
+    gap: 15px;
+    padding: 10px;
+    grid-template-areas: 
+    'red1 red1 red1 yellow1 yellow1'
+    'red1 red1 red1 yellow1 yellow1'
+    'green1 green1 blue1 blue1 blue1'
+    'green1 green1 blue2 blue2 blue2' ;
+    width: 50%;
+    height: 50vh;
+    margin:auto;
+    margin-top: 200px;
+ 
+
+}
+
+.item1{
+    grid-area: red1;
+    background-color: red;
+}
+
+.item2{
+    grid-area: yellow1;
+    background-color: darkorange;
+}
+
+.item3{
+    grid-area: green1;
+    background-color: rgb(42, 190, 42);
+}
+
+.item4{
+    grid-area: blue1;
+    background-color: dodgerblue;
+
+}
+
+.item5{
+    grid-area: blue2;
+    background-color:  dodgerblue;
+}

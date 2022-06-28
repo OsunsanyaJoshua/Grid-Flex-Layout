@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+main{
+   
+    width:45%;
+    
+    /* margin:auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(0, 0%, 95%)
+    ;
+    height: 60vh;
+    padding: 60px 90px; 
+    /* border:1px solid black; */
+    
+}
+
+.button1 {
+     background-color:  hsl(0, 0%, 95%);
+
+     cursor:pointer;
+     color:hsl(31, 77%, 52%);
+     border-radius: 20px;
+     padding: 10px;
+     margin: auto;
+     border: 1px solid white;
+    }
+    
+.button2 {
+     background-color: hsl(0, 0%, 95%);
+     cursor:pointer;
+    color:hsl(184, 100%, 22%);
+    border-radius: 20px;
+     padding: 10px;
+     margin: auto;
+     border: 1px solid white;
+    }
+
+ .button3 {
+        background-color: hsl(0, 0%, 95%);
+        cursor:pointer;
+       color: hsl(179, 100%, 13%);
+       border-radius: 20px;
+       padding: 10px;
+       margin: auto;
+       border: 1px solid white;}
+
+ 
+  .First{
+    background-color: hsl(31, 77%, 52%);
+    padding: 20px;
+    width: 20%;
+    height: 70%;
+    color: white;
+    border-radius: 4px;
+    /* border-radius: 3px; */
+    text-align: left;
+    
+}
+
+.Second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    width: 20%;
+    height: 70%;
+    border-radius: 4px;
+    /* border-radius: 3px; */
+    text-align: left;
+    color: white;
+
+   
+    
+}
+
+
+  .Third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    width: 20%;
+    height: 70%;
+    border-radius: 4px;
+    /* border-radius: 3px; */
+    text-align: left;
+    color: white;
+    
+    }
+
+    div{
+        padding: 15px;
+    }
+
+    
+.a:hover {
+    background-color:  hsl(31, 77%, 52%);
+    color: white;
+}
+.b:hover {
+    background-color:   hsl(184, 100%, 22%);
+    color: white;
+}
+
+ .c:hover {
+  
+    background-color: hsl(179, 100%, 13%);
+    
+    color: white;
+}
+
+@font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+}
+p {font-family: lexand Deca;}
+
+@font-face {
+    font-family: Big Shoulders Display;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    font-weight: 700;
+}
+
+h2ht {font-family: Big Shoulders Display;}
+
